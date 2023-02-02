@@ -39,7 +39,7 @@ public class Loops {
         int firstNumbrer = 1;
         int secondNumber = 1;
         int result;
-        System.out.print(firstNumbrer+" "+secondNumber+" ");
+        System.out.print("0 " + firstNumbrer+ " "+secondNumber+" ");
         for(int i = 3; i <= 11; i++){
             result=firstNumbrer+secondNumber;
             System.out.print(result+" ");
