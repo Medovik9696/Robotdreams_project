@@ -29,11 +29,13 @@ public class Loops {
     static void PrintFactorial(int n){
         int factorial=1;
         if (n<0) System.out.println("incorrect number, n<0");
+        else if (n==0) System.out.println("factorial 0 is 0");
         else {for (int i=1;i<=n;i++){
             factorial = factorial*i;
         }
+            System.out.println("Factorial " + n + " = " +factorial);
         }
-        System.out.println("Factorial " + n + " = " +factorial);
+
     }
     static void PrintFibonacciNumbers(){
         int firstNumbrer = 1;
