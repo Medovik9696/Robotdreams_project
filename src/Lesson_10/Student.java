@@ -15,4 +15,7 @@ public class Student {
     void drinkStudent(){
         System.out.println("Student is drinking");
     }
+    void printStudentsAssessment(){
+        System.out.println("Student assessment is: " + assessment);
+    }
 }
