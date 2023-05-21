@@ -6,9 +6,10 @@ public class NumberGenerator implements Runnable  {
     @Override
     public void run() {
         int number=0;
-        while(number!=5) {
+        while(true) {
             Random random = new Random();
             number = random.nextInt(1, 10);
+            if (number==5) break;
             System.out.println(number);
         }
     }
